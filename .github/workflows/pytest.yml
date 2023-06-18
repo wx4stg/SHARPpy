@@ -45,3 +45,7 @@ jobs:
     #   id: cache
 
     # if: ${{ steps.cache.outputs.cache-hit != 'true' }}
+
+permissions:
+  checks: write
+  pull-requests: write
